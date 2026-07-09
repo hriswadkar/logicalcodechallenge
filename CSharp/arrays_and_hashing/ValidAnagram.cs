@@ -2,7 +2,7 @@ using System;
 
 public class ValidAnagram
 {
-    public static void main(String[] args)
+    public static void Main(String[] args)
     {
         ValidAnagram va = new ValidAnagram();
         Console.WriteLine(va.IsAnagram("anagram", "nagaram"));
